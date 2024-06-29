@@ -41,3 +41,8 @@ INNER JOIN
 INNER JOIN 
     kimia_farma.kf_inventory AS a ON c.product_id = a.product_id AND b.branch_id = a.branch_id
 ;
+
+-- To Select Data from the Analysis Table and Remove Duplicates
+SELECT DISTINCT *
+FROM kimia_farma.tabel_analisis
+;
